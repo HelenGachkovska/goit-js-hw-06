@@ -1,8 +1,8 @@
 const form = document.querySelector(".login-form");
 
-form.addEventListener("submit", hendlerFormSubmit);
+form.addEventListener("submit", handlerFormSubmit);
 
-function hendlerFormSubmit(event) {
+function handlerFormSubmit(event) {
   event.preventDefault();
 
   const formElement = event.currentTarget.elements;
@@ -22,3 +22,5 @@ function hendlerFormSubmit(event) {
     event.target.reset();
   }
 }
+
+
